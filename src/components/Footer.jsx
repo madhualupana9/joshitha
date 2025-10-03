@@ -37,8 +37,12 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center shadow-lg shadow-primary-500/50">
-                <span className="text-2xl font-bold text-white">J</span>
+              <div className="w-16 h-12 flex items-center justify-center">
+                <img
+                  src="/images/logo/LOGOS-1.png"
+                  alt="Joshitha Infratech Logo"
+                  className="w-full h-full object-contain filter brightness-110"
+                />
               </div>
               <div>
                 <h3 className="text-xl font-display font-bold text-white">JOSHITHA</h3>
